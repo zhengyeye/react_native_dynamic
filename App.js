@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
 	Platform,
@@ -22,7 +16,14 @@ const instructions = Platform.select({
 	ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
 	android: 'Double tap R on your keyboard to reload,\n' + 'Shake or press menu button for dev menu'
 });
-
+/**
+ * 点击按钮，增加图片组件
+ * 
+ * @author zhengyeye
+ * @export
+ * @class App
+ * @extends {Component<{}>}
+ */
 export default class App extends Component<{}> {
 	/**
    * 动态图片(最多九张图)选择显示
